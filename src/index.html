@@ -9,11 +9,11 @@
   <body class="">
     <div class="absolute bg-gradient-to-br from-violet-500 to-pink-500 h-screen">
     
-      <!-- The Table™ -->  
-      <div class="p-20 m-20 bg-white rounded-3xl">
+      <!-- The Table™ -->
+      <div class="p-10 m-10 bg-white rounded-3xl bg-opacity-25">
         <table class="relative w-full table-fixed text-left">
           <!-- head -->
-          <thead>
+          <thead class="">
             <tr>
               <th class="p-4">PROGRAM</th>
               <th class="p-4"></th>
@@ -43,7 +43,7 @@
               <td class="p-4">
                 <div class="">
                   <img
-                    class="mask mask-circle h-12 w-12"
+                    class="mask mask-circle h-16 w-16"
                     src="https://placeimg.com/160/160/arch"
                   />
                 </div>
@@ -58,13 +58,13 @@
                 <p class="">Xenon - Teaterhuset</p>
               </td>
               <td class="p-4">
-                <button class="btn">Læs mere</button>
+                <button id="togglebtn1" class="btn">Læs mere</button>
               </td>
             </tr>
             <!-- row 1 collapse -->
             <tr class="">
               <td class="p-4" colspan="5">
-                <p class="">
+                <p id="info1" class="hidden">
                   En forestilling af KOPFKINO Find din yoyo frem og sæt dig selv
                   fri i en skov. Det går godt for de tre roomies med at dele
                   lejlighed, men kæft det går dårligt med at være mennesker i en
@@ -91,7 +91,7 @@
               <td class="p-4">
                 <div class="">
                   <img
-                    class="mask mask-circle h-12 w-12"
+                    class="mask mask-circle h-16 w-16"
                     src="https://placeimg.com/160/160/arch"
                   />
                 </div>
@@ -106,13 +106,61 @@
                 <p class="">Xenon - Teaterhuset</p>
               </td>
               <td class="p-4">
-                <button class="btn">Læs mere</button>
+                <button id="togglebtn2" class="btn">Læs mere</button>
               </td>
             </tr>
             <!-- row 2 collapse -->
             <tr class="">
               <td class="p-4" colspan="5">
-                <p class="">
+                <p id="info2" class="hidden">
+                  En forestilling af KOPFKINO Find din yoyo frem og sæt dig selv
+                  fri i en skov. Det går godt for de tre roomies med at dele
+                  lejlighed, men kæft det går dårligt med at være mennesker i en
+                  nulfejlskultur, hvor alt handler om meritter og
+                  milepælsplaner. Rakel er blevet droppet af sin eks, Lua kommer
+                  bare aldrig videre til prøverne på Skuespillerskolen og Skjold
+                  dater alarmerende uhyggeligt meget. Ikke flere undvigemanøvre
+                  for at blive stemplet som fiasko. Ikke flere hvide løgne for
+                  at være bedre end man er. Ikke mere pleaser-pis for at rykke
+                  op i sit selvskabte hierarki. Ud med skam og ind med sandhed.
+                  Med inspiration i Shinrin-Yoku,
+                  anti-happy-go-lucky-mentalitet, vigtige venner og svære
+                  erkendelser tager Teater Kopfkino os med på en komisk
+                  dannelsesrejse midt i bøvlede livsprocesser.
+                </p>
+              </td>
+            </tr>
+
+            <!-- row 3 -->
+            <tr>
+              <td class="p-4">
+                <input type="checkbox" checked="checked" class="checkbox" />
+              </td>
+              <td class="p-4">
+                <div class="">
+                  <img
+                    class="mask mask-circle h-16 w-16"
+                    src="https://placeimg.com/160/160/arch"
+                  />
+                </div>
+              </td>
+              <td class="p-4">
+                <div class="flex flex-col">
+                  <p class="">20:15</p>
+                  <p class="">GO GO YO-YOKU</p>
+                </div>
+              </td>
+              <td class="p-4">
+                <p class="">Xenon - Teaterhuset</p>
+              </td>
+              <td class="p-4">
+                <button id="togglebtn3" class="btn">Læs mere</button>
+              </td>
+            </tr>
+            <!-- row 3 collapse -->
+            <tr class="">
+              <td class="p-4" colspan="5">
+                <p id="info3" class="hidden">
                   En forestilling af KOPFKINO Find din yoyo frem og sæt dig selv
                   fri i en skov. Det går godt for de tre roomies med at dele
                   lejlighed, men kæft det går dårligt med at være mennesker i en
