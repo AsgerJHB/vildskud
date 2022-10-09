@@ -26,6 +26,7 @@ function filterTable() {
 document.querySelectorAll(".table_row").forEach((item) => {
   item.addEventListener("click", (event) => {
     {
+      console.log("hej123");
       let infotekst = item.nextElementSibling;
       let arrowTing = item.lastElementChild;
       if (infotekst.style.display === "none") {
